@@ -13,6 +13,7 @@ import static org.springframework.data.jpa.domain.Specification.where;
 @Component
 @RequiredArgsConstructor
 public class CustomProductRepository {
+    
     private static final Double PREMIUM_PRICE = 1000D;
     private final ProductRepository productRepository;
 
